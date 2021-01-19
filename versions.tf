@@ -1,13 +1,6 @@
-<<<<<<< HEAD
-
 terraform {
-  required_version = ">= 0.12"
-}
-=======
-
-terraform {
-  required_version = ">= 0.13"
-  required_providers {
+  required_version = ">= 0.14"
+   required_providers {
     aws = {
       source = "hashicorp/aws"
     }
@@ -16,4 +9,4 @@ terraform {
     }
   }
 }
->>>>>>> upstream/develop
+
